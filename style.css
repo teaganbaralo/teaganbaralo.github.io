@@ -1,0 +1,16 @@
+title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    Color: rgb(29, 29, 210)
+
+
+}
+
+.narbar [
+    text-align: right;
+    padding: 10px 40px 0 0;
+]
+
+
+.navbar ul {
+    list-style: none;
+}
