@@ -1,18 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Teagan Baralo</title>
-        <Link rel="stylesheet" href = "style.css"/>
-    </head>
-    <body>
-        <h1 id = "title">Teagan Baralo</h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href = "aboutme.html">About Me</a></li>
-                <li><a href = "resume.html">Projects</a></li>
-            </ul>
-        </nav>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CHANGE THIS: the name shown on the browser tab -->
+  <title>Teagan Baralo</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 18px 40px;
+      background: white;
+      color: #222;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    /* The light blue bar at the top */
+    .navbar {
+      background: #bfe9f9;
+      border-radius: 6px;
+      padding: 18px 16px;
+    }
+    .navbar a {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #1b2a4a;
+      text-decoration: none;
+      margin-right: 36px;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Teagan Baralo */
+    h1 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 48px;
+      color: #444;
+      margin: 60px 10px 20px;
+    }
+
+    /* The line under Teagan Baralo */
+    .subtitle {
+      font-family: Georgia, serif;
+      font-size: 26px;
+      color: #333;
+      margin: 0 10px 30px;
+    }
+
+    /* The picture */
+    .main-photo {
+      display: block;
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      margin: 0 10px;
+      background: #ddd;   /* gray box shows until you add a photo */
+      min-height: 200px;
+    }
+
+    /* Your writing */
+    .writing {
+      max-width: 1000px;
+      margin: 30px 10px;
+      font-size: 20px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+
+    /* Makes it look OK on phones */
+    @media (max-width: 600px) {
+      body { padding: 12px 16px; }
+      .navbar a { display: inline-block; margin: 6px 16px 6px 0; font-size: 17px; }
+      h1 { font-size: 36px; margin-top: 30px; }
+      .subtitle { font-size: 20px; }
+      .writing { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== TOP BAR =====
+       Each line is one button. Change the words between > and <.
+       Change the part in quotes after href= to the link you want. -->
+  <nav class="navbar">
+    <a href="#">About Me</a>
+    <a href="#">Resume</a>
+    <a href="#">Research Statement</a>
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+  </nav>
+
+  <!-- ===== Teagan Baralo ===== -->
+  <h1>Teagan Baralo</h1>
+
+  <!-- ===== LINE UNDER Teagan Baralo ===== -->
+  <p class="subtitle">University of North Carolina Chapel Hill
+  </p>
+
+  <!-- ===== PICTURE =====
+       Put your photo in the SAME folder as this file and name it photo.avif
+       (or change "photo.avif" below to match your photo's file name). -->
+  <img class="main-photo" src="photo.avif" alt="A photo">
+
+  <!-- ===== YOUR WRITING =====
+       Each <p> ... </p> is one paragraph. Copy a whole line to add more. -->
+  <div class="writing">
+    <p>During my 5th birthday, I couldn’t eat my birthday cake. I had contracted the influenza virus a few days earlier and was still fighting the illness. After recovering a few days later, I began experiencing abnormal symptoms such as weak hands and constant tripping, and as symptoms persisted, it was apparent something was wrong. After visiting many physicians, I was diagnosed with the chronic form of Guillain-Barré Syndrome: a rare neurological disorder where antibodies, presumably from the flu I previously had, begin to destroy the myelin sheath surrounding peripheral nerves. The demyelinating effects begin in the hands and feet, gradually working their way towards the trunk, causing some patients to need mechanical ventilation or even wheelchairs.
+
+
+    <p>Immediately after diagnosis, I spent two weeks in the hospital receiving treatment while undergoing various testing. In the years following, my life was riddled with frequent hospital visits, physical therapy, and constant uncertainty. However, after a few years, physicians helped regulate my treatment methodology by planning strategically timed IVIG treatments to fight my illness. The minimally invasive nature of intravenous treatment therefore allowed me to continue living an ordinary childhood while receiving essential care, solely requiring monthly outpatient hospital treatment.
+
+    <p>During the first 3 years of treatment, I was greatly weakened, limiting the activities I could participate in. Through this firsthand experience, I have learned the importance of considering how undergoing treatment affects a patient’s quality of life. Aligning with Schwarzenegger’s assertion, I strive to discover neurological treatments that allow patients “not simply to exist,” but to thrive, experiencing all life has to offer without the hindrance of extreme side effects. 
+
+    </p>Through my studies at UNC Chapel Hill, I will continue to explore the vastness of neuroscience to pinpoint where to effectively direct my passion. Hence, guided by that directionality, I hope to join a research laboratory to learn how to properly investigate underlying causal relationships within neuroscience and eventually lead such investigation. 
+
+    </p>Outside of medicine, I will continue to prioritize physical health. As such, I recently completed a half marathon and hope to complete the Mount Mitchell Ultramarathon next summer. Furthermore, I will continue to advocate for the essentiality of physical health, and encourage those around me to lead a more active lifestyle, as, through my studies, I have learned how beneficial physical activity can be for both the body and the mind. 
+
+    <p>Moreover, in the summer of 2027, I plan to attend NOLS Wilderness Emergency Medical Technician training in Lander, Wyoming. During this training, I will gain the clinical experience necessary to transform knowledge into action through 200 hours of hands-on experience. After gaining Wilderness EMT Certification, I hope to work in the backcountry in areas where immediate care is otherwise impossible. 
+
+    </p>Ultimately, I hope to use my time at Chapel Hill to build a foundation for a career to discover, and later administer, neurological treatments that allow patients to not simply recover from their illness, but to thrive while doing so.  
+
+
+  </div>
+
+</body>
 </html>
